@@ -32,6 +32,7 @@ export const Navbar = () => {
             <div className='flex flex-row gap-5'>
                 {Socials.map((social) => (
                     <Image
+                    key={social.name}
                     src={social.src}
                     alt={social.name}
                     width={24}
