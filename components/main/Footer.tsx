@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='mb-[20px] text-[15px] text-center'>
-                &copy; Jung-Hyun Andrew Kim 2024 All Rights Reserved 
+                &copy; Jung-Hyun Andrew Kim 2024 All Rights Reserved. Logo Designed by FreePik.
             </div>
         </div>
             
