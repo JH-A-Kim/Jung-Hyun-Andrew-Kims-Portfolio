@@ -6,9 +6,9 @@ const Projects = () => {
     <div className='flex flex-col items-center justify-center py-20'>
         <h1 className='text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20' id="projects">My Projects</h1>
         <div className='h-full w-full flex flex-col md:flex-row gap-10 px-10'>
-            <ProjectCard src='/NextWebsite.png' title='Project 1' description='This is a description for project 1' />
-            <ProjectCard src='/CardImage.png' title='Project 2' description='This is a description for project 2' />
-            <ProjectCard src='/SpaceWebsite.png' title='Project 3' description='https://github.com/' link='https://github.com/'/>
+            <ProjectCard src='/NextWebsite.png' title='SFUConnect' description='SFU Connect is a dynamic app designed to streamline the process of discovering events and engaging with clubs at Simon Fraser University (SFU). By consolidating all club and event information into one user-friendly platform, SFU Connect makes it easier for students to find and join clubs that match their interests. With powerful search capabilities and intuitive navigation, the app ensures that students never miss out on exciting opportunities to connect, collaborate, and enhance their university experience.' />
+            <ProjectCard src='/CardImage.png' title='Custom Shell' description='This is a simple program written in C that provides basic command-line functionality, including executing commands, managing history, handling signals, and supporting built in commands like cd, pwd, history, and exit.' />
+            <ProjectCard src='/SpaceWebsite.png' title='HaunTower' description='https://github.com/' link='https://github.com/'/>
         </div>
     </div>
   )
