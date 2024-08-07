@@ -64,3 +64,11 @@
   html {
     scroll-behavior: smooth;
   }
+  a {
+    outline: 2px solid red; /* Add this to see the clickable area */
+  }
+  a {
+    position: relative; /* or absolute/fixed depending on your layout */
+    z-index: 1000; /* Ensure it's above other elements */
+  }
+  
