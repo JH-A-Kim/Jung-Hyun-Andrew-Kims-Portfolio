@@ -30,7 +30,8 @@ export const Navbar = () => {
             </div>
 
             <div className='flex flex-row gap-5'>
-                <Link href={'https://www.instagram.com/andaruce/'}>
+                <Link legacyBehavior href={'https://www.instagram.com/andaruce/'} passHref>
+                <a target='_blank' rel="noopener noreferrer">
                     <Image
                     key={'Instagram'}
                     src={'/instagram.svg'}
@@ -38,8 +39,10 @@ export const Navbar = () => {
                     width={24}
                     height={24}
                     />
+                </a>
                 </Link>
-                <Link href={"https://discord.gg/D6DEqg85Ef"}>
+                <Link legacyBehavior href={"https://discord.gg/D6DEqg85Ef"} passHref>
+                    <a target='_blank' rel="noopener noreferrer">
                     <Image
                     key={'Discord'}
                     src={'/discord.svg'}
@@ -47,6 +50,7 @@ export const Navbar = () => {
                     width={24}
                     height={24}
                     />
+                    </a>
                 </Link>
             </div>
         </div>
