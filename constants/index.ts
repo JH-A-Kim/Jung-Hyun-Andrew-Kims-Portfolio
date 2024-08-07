@@ -1,3 +1,5 @@
+import { MdHeight } from "react-icons/md";
+
 export const Skill_data = [
     {
       skill_name: "Html 5",
@@ -30,12 +32,6 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Redux",
-      Image: "/redux.png",
-      width: 80,
-      height: 80,
-    },
-    {
       skill_name: "React Query",
       Image: "/reactquery.png",
       width: 80,
@@ -50,18 +46,6 @@ export const Skill_data = [
     {
       skill_name: "Next js 13",
       Image: "/next.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Framer Motion",
-      Image: "/framer.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Stripe Payment",
-      Image: "/stripe.webp",
       width: 80,
       height: 80,
     },
@@ -119,20 +103,8 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Material UI",
-      Image: "/mui.png",
-      width: 80,
-      height: 80,
-    },
-    {
       skill_name: "React",
       Image: "/react.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Redux",
-      Image: "/redux.png",
       width: 80,
       height: 80,
     },
@@ -176,35 +148,29 @@ export const Skill_data = [
       height: 40,
     },
     {
-      skill_name: "Fire base",
-      Image: "/Firebase.png",
-      width: 55,
-      height: 55,
-    },
-    {
       skill_name: "Postger SQL",
       Image: "/postger.png",
       width: 70,
       height: 70,
     },
     {
-      skill_name: "My SQL",
-      Image: "/mysql.png",
+      skill_name: "Java",
+      Image: "/java.png",
       width: 70,
       height: 70,
     },
     {
-      skill_name: "Prisma",
-      Image: "/prisma.webp",
+      skill_name: "Python",
+      Image: "/python.png",
       width: 70,
       height: 70,
     },
     {
-      skill_name: "Graphql",
-      Image: "/graphql.png",
-      width: 80,
-      height: 80,
-    },
+      skill_name: "C",
+      Image: "/C.png",
+      width: 70,
+      height: 70,
+    }
   ];
   
   export const Full_stack = [
@@ -215,34 +181,26 @@ export const Skill_data = [
       height: 70,
     },
     {
-      skill_name: "Tauri",
-      Image: "/tauri.svg",
-      width: 70,
-      height: 70,
-    },
-    {
       skill_name: "Docker",
       Image: "/docker.webp",
       width: 70,
       height: 70,
     },
-  
     {
-      skill_name: "Figma",
-      Image: "/figma.png",
-      width: 50,
-      height: 50,
+      skill_name: "C++",
+      Image: "/C++.png",
+      width:70,
+      height:70,
     },
-  
+    {
+      skill_name: "Github",
+      Image: "/gitwhite.png",
+      width: 70,
+      height: 70,
+    }
   ];
   
   
   
   export const Other_skill = [
-    {
-      skill_name: "Go",
-      Image: "/go.png",
-      width: 60,
-      height: 60,
-    },
   ];
