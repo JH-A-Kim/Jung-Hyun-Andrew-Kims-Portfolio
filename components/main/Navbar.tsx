@@ -1,7 +1,7 @@
 "use client";
 
-import { Socials } from '@/constants'
 import Image from 'next/image'
+import Link from 'next/link';
 import React from 'react'
 
 export const Navbar = () => {
@@ -30,15 +30,24 @@ export const Navbar = () => {
             </div>
 
             <div className='flex flex-row gap-5'>
-                {Socials.map((social) => (
+                <Link href={'https://www.instagram.com/andaruce/'}>
                     <Image
-                    key={social.name}
-                    src={social.src}
-                    alt={social.name}
+                    key={'Instagram'}
+                    src={'/instagram.svg'}
+                    alt={'Instagram'}
                     width={24}
                     height={24}
                     />
-                ))}
+                </Link>
+                <Link href={"https://discord.gg/D6DEqg85Ef"}>
+                    <Image
+                    key={'Discord'}
+                    src={'/discord.svg'}
+                    alt={'Discord'}
+                    width={24}
+                    height={24}
+                    />
+                </Link>
             </div>
         </div>
     </div>
